@@ -4,10 +4,44 @@
     <meta content="en-us" http-equiv="Content-Language" />
     <title>Assign_4.1</title>
     <link href="Assign_4.1.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="Assign_4.1.js"></script>
   </head>
 
   <body>
 
+    <div id="border1">
+      <a href="file:///N:/IASC%201P02/Assign_4/Assign_4.html#" class="button1">Back to Main Page</a>
+      <center><h1 class="text1">Booking Your Stay</h1></center>
+      <img id="image1" src="wakems.png" alt="Wakem's"/>
+    </div>
 
+    <div id="border2">
+      <form>
+        <input type="text" name="firstName" id="firstName" placeholder="Your First name.." value=""/>
+        <input type="text" name="lastName" id="lastName" placeholder="Your Last name.." value="" />
+        <input type="text" name="eMail" id="eMail" placeholder="Your Email.." value=""/>
 
-  </body></html>
+        <label class="container">Single
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container">Double
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <input type="number" name="roomNeed" id="roomNeed" placeholder="Amount of Rooms Needed.." value=""/>
+        <input type="number" name="amoGuest" id="amoGuest" placeholder="Amount of Guests.." value=""/>
+        <input type="date" name="startDate" id="startDate" value=""/>
+        <input type="date" name="endDate" id="endDate" value=""/>
+
+        <button type="button" onclick="bookEnd()"> Book </button>
+
+        <p id="output">-</p>
+
+      </form>
+
+    </div>
+
+</body></html>
