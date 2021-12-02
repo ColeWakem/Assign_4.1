@@ -3,6 +3,8 @@ function bookEnd(){
   console.log(firstName);
   var lastName = String(document.getElementById("lastName").value);
   console.log(lastName);
+  var eMail = String(document.getElementById("eMail").value);
+  console.log(eMail);
 
-  document.getElementById("output").innerHTML= firstName + " " + lastName;
+  document.getElementById("output").innerHTML= firstName + " " + lastName + " " + eMail;
 }
