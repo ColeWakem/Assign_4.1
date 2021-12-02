@@ -16,32 +16,51 @@
     </div>
 
     <div id="border2">
-      <form>
+      <center><form id="form1">
+      </br>
         <input type="text" name="firstName" id="firstName" placeholder="Your First name.." value=""/>
+      </br>
         <input type="text" name="lastName" id="lastName" placeholder="Your Last name.." value="" />
+      </br>  
         <input type="text" name="eMail" id="eMail" placeholder="Your Email.." value=""/>
 
-        <label class="container">Single
-          <input type="checkbox" checked="checked">
-          <span class="checkmark"></span>
-        </label>
+      <div>
+        <input type="radio" id="room1" name="room" value="single" checked=""></input>
+        <label for="single">Single</label>
+      </div>
 
-        <label class="container">Double
-          <input type="checkbox">
-          <span class="checkmark"></span>
-        </label>
+      <div>
+        <input type="radio" id="room2" name="room" value="double"></input>
+        <label for="double">Double</label>
+      </div>
 
-        <input type="number" name="roomNeed" id="roomNeed" placeholder="Amount of Rooms Needed.." value=""/>
+      </br>
+
         <input type="number" name="amoGuest" id="amoGuest" placeholder="Amount of Guests.." value=""/>
-        <input type="date" name="startDate" id="startDate" value=""/>
-        <input type="date" name="endDate" id="endDate" value=""/>
+
+      </br>
+
+      <p> Start Date of Stay </p>
+        <input type="text" name="startDay" id="startDay" placeholder="DD" value=""/>
+      </br>
+        <input type="text" name="startMonth" id="startMonth" placeholder="MM" value=""/>
+      </br>
+        <input type="text" name="startYear" id="startYear" placeholder="YYYY" value=""/>
+      </br>
+      </br>
+      <p> End Date of Stay </p>
+        <input type="text" name="endDay" id="endDay" placeholder="DD" value=""/>
+      </br>
+        <input type="text" name="endMonth" id="endMonth" placeholder="MM" value=""/>
+      </br>
+        <input type="text" name="endYear" id="endYear" placeholder="YYYY" value=""/>
+      </br>
+      </br>
 
         <button type="button" onclick="bookEnd()"> Book </button>
 
         <p id="output">-</p>
-
-      </form>
-
+      </form></center>
     </div>
 
 </body></html>
