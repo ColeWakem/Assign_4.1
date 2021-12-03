@@ -45,6 +45,17 @@ p{
   height: 900px;
 }
 
+#border3{
+  background-color: #FFDA59;
+  border: 10px solid #FFBE59;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  height: 100px;
+}
+
 #image1{
  border: 1px solid black;
  float: right;
@@ -79,6 +90,18 @@ p{
 
 .text3{
  font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.text4{
+ font-family: Times, "Times New Roman", Georgia, serif;
+ color: white;
+ background-color: rgb(69, 118, 172);
+ border: 1px solid black;
+ margin-top: 35px;
+ margin-left: 50px;
+ width: 100px;
+ float: left;
+ position: relative;
 }
 
 .button1{
@@ -126,3 +149,58 @@ p{
 #room2,#eMail,#amoGuest,#startYear,#endYear{
   margin-bottom: 25px;
 }
+
+.button2{
+  color: white;
+  font-size: 20px;
+  font-family: Times, "Times New Roman", Georgia, serif;
+  box-shadow: 0 9px #999;
+  margin-left: 1200px;
+  margin-top: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  background-color: rgb(69, 118, 172);
+  position: relative;
+}
+
+.button2 {border-radius: 8px;}
+
+.button2:hover {
+    background-color: rgb(99, 148, 202);
+}
+
+.button2:active {
+  background-color: rgb(99, 148, 202);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.fa {                     /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons*/
+  padding: 10px;
+  font-size: 30px;
+  margin-left: 25px;
+  margin-top: 30px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.fa {border-radius: 8px;}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}                        /*STOP*/
