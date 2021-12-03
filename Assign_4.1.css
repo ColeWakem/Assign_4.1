@@ -20,7 +20,7 @@ p{
    font-family: Times, "Times New Roman", Georgia, serif;
    color: white;
    position: relative;
-   font-size: 20px;
+   font-size: 17px;
 }
 
 #border1{
@@ -117,4 +117,8 @@ p{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+#room2,#eMail,#amoGuest,#startYear,#endYear{
+  margin-bottom: 25px;
 }
