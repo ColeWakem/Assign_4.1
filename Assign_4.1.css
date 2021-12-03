@@ -7,12 +7,20 @@ body{
 
 #form1{
   border: 1px solid black;
-  height: 500px;
-  width: 500px;
+  height: 800px;
+  width: 900px;
   padding-top: 25px;
   padding-bottom: 25px;
   margin-top: 25px;
   margin-bottom: 25px;
+  background-color: rgb(69, 118, 172);
+}
+
+p{
+   font-family: Times, "Times New Roman", Georgia, serif;
+   color: white;
+   position: relative;
+   font-size: 20px;
 }
 
 #border1{
@@ -34,7 +42,7 @@ body{
   margin-right: 20px;
   margin-bottom: 20px;
   position: relative;
-  height: 600px;
+  height: 900px;
 }
 
 #image1{
@@ -109,8 +117,4 @@ body{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-#room1{
-  margin-top: 20px;
 }
