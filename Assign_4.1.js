@@ -23,7 +23,7 @@ function bookEnd(){
   var endYear = Number(document.getElementById("endYear").value);
   console.log(endYear);
 
-  var room = document.getElementsByName("room");  //www.youtube.com/watch?v=uzwUBDQfpkU
+  var room = document.getElementsByName("room");  //www.youtube.com/watch?v=uzwUBDQfpkU Dec 3 2021
   if(room[0].checked)
   {
     document.getElementById("output").innerHTML= "Thank you for booking with us " + firstName + " " + lastName + "! " + " You are now scheduled to be staying with us from "
