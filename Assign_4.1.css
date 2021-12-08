@@ -5,6 +5,11 @@ body{
   border: 0px;
 }
 
+#wrapper{
+  width: 1900px;
+  margin: 0 auto;
+}
+
 #form1{
   border: 1px solid black;
   height: 800px;
