@@ -33,8 +33,8 @@ function bookEnd(){
   if(room[1].checked)
   {
     document.getElementById("output").innerHTML= "Thank you for booking with us " + firstName + " " + lastName + "! " + " You are now scheduled to be staying with us from "
-    + startDay + "/" + startMonth + "/" + startYear + " to " + endDay + "/" + endMonth + "/" + endYear + "." + " You have asked for a single format room for " + amoGuest +
-    " guests." + " For the Double room format, it will cost $120 a night." +" We will send an email to " + eMail + " to confirm with you that everything is correct.";
+    + startDay + "/" + startMonth + "/" + startYear + " to " + endDay + "/" + endMonth + "/" + endYear + "." + " You have asked for a double format room for " + amoGuest +
+    " guests." + " For the double room format, it will cost $120 a night." +" We will send an email to " + eMail + " to confirm with you that everything is correct.";
   }
 
 
